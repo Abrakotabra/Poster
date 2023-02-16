@@ -33,6 +33,7 @@ body {
     font-weight: bold;
     left: 25px;
     right: -20px;
+    margin: 5px 5px 5px 5px;
 }
 
 .af {
@@ -42,12 +43,14 @@ body {
 
 .title {
     display: flex;
+    margin-top: 10px;
 }
 
-.razd { /*Не выравнивающияся херня*/
+.razd { 
     display: flex;
-    position: center;
     text-align: center;
+    vertical-align: middle;
+    margin-left: 180px;
 }
 
 .text {
@@ -59,20 +62,23 @@ body {
 }
 
 .st {
-    width: 30%;
-    margin: 10px 50px 0px 0;
+    width:100%
 }
 
 .st-tx {
-    font-size: 80%;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 .st-dt {
-    font-size: 50%;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
+
 
 .st-1 {
     display: flex;
+}
+
+.st-fon {
+    padding: 5px;
+    margin: 15px 10px;
 }
