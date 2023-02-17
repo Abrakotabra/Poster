@@ -59,10 +59,29 @@ body {
     vertical-align: middle;
     font-size: 1.6em;
     margin: 20px;
+    outline: none;
+    color: black;
+    text-decoration: none;
 }
 
+.st-img {
+    overflow: hidden;
+    border-radius: 25px;
+}
 .st {
-    width:100%
+    width: 100%;
+    transition: transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -o-transition: transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    overflow: hidden;
+}
+
+.st:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 .st-tx {
@@ -81,4 +100,36 @@ body {
 .st-fon {
     padding: 5px;
     margin: 15px 10px;
+    overflow: hidden;
+}
+
+.all-date {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 80px;
+}
+
+.weekend{
+    color: red;
+}
+
+.weekdays{
+    margin: 0px 0px 0px 0px;
+}
+
+.date {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.one-date {
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+.home {
+    outline: none;
+    color: black;
+    text-decoration: none;
 }
