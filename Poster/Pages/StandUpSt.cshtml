@@ -1,7 +1,7 @@
 ﻿@page
-@model IndexModel
+@model Poster.Pages.StandUpStModel
 @{
-    ViewData["Title"] = "АфишаХ";
+    ViewData["Title"] = "Стендап";
 }
 
 <a class="home" asp-area="" asp-page="/Index">
@@ -16,7 +16,7 @@
     <a id="Theater" class="text" asp-area="" asp-page="/TheaterSt">Театр</a>
     <a id="Exhibitions" class="text" asp-area="" asp-page="/ExhibitionsSt">Выставки</a>
     <a id="Musicals" class="text" asp-area="" asp-page="/MusicalsSt">Мьюзиклы</a>
-    <a id="StandUp" class="text" asp-area="" asp-page="/StandUpSt">Стендап</a>
+    <a id="StandUp" class="text1" asp-area="" asp-page="/StandUpSt">Стендап</a>
 </div>
 <div class="text-center">
     <h1 class="display-4">Афиша событий в екатеринбурге</h1>
@@ -140,73 +140,71 @@
     <h1 class="display-4">События в ближайшие дни</h1>
 </div>
 <div class="st-1">
-    <div class ="st-fon">
+    <div class="st-fon">
         <div class="st-img">
-        <img class="st" src="img/Rectangle 4.png" />
+            <img class="st" src="img/3/Орлов.png" />
         </div>
-        <p class="st-tx">Мюзикл без границ</p>
+        <p class="st-tx">Сергей Орлов</p>
         <p class="st-dt">Чт 23 февраля, 19:00</p>
     </div>
-    <div class ="st-fon">
+    <div class="st-fon">
         <div class="st-img">
-        <img class="st" src="img/1/Rectangle 5.png" />
+            <img class="st" src="img/3/Складчикова.png" />
         </div>
-        <p class="st-tx">Кармен</p>
-        <p class="st-dt">Сб 4 марта, 19:00</p>
+        <p class="st-tx">Виктория складчикова</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
     </div>
-    <a asp-area="" asp-page="/Information/Sobolev">
-    <div class ="st-fon">
+    <div class="st-fon">
         <div class="st-img">
             <img class="st" src="img/1/Rectangle 6.png" />
         </div>
         <p class="st-tx">Илья Соболев</p>
-        <p class="st-dt">Пт 24 февраля, 19:00</p>
-    </div>
-    </a>
-</div>
-<div class="st-1">
-    <div class ="st-fon">
-        <div class="st-img">
-            <img class="st" src="img/1/Rectangle 7.png" />
-        </div>
-        <p class="st-tx">Анна Каренина</p>
-        <p class="st-dt">Чт 2 Марта, 19:00</p>
-    </div>
-    <div class="st-fon">
-        <div class="st-img">
-            <img class="st" src="img/1/Rectangle 8.png" />
-        </div>
-        <p class="st-tx">Виктория Складчикова</p>
-        <p class="st-dt">Ср 8 марта, 18:00 и 20:00</p>
-    </div>
-    <div class ="st-fon">
-        <div class="st-img">
-            <img class="st" src="img/1/Rectangle 9.png" />
-        </div>
-        <p class="st-tx">Алиса в стране чудес</p>
-        <p class="st-dt">Ср 1 марта, 16:00</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
     </div>
 </div>
 <div class="st-1">
     <div class="st-fon">
         <div class="st-img">
-            <img class="st" src="img/1/Rectangle 10.png" />
+            <img class="st" src="img/7/Абрамов.png" />
         </div>
-        <p class="st-tx">Ромео и Джульета</p>
-        <p class="st-dt">Ср 22 Марта, 18:30</p>
+        <p class="st-tx">Иван Абрамов</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
     </div>
     <div class="st-fon">
         <div class="st-img">
-            <img class="st" src="img/1/Rectangle 11.png" />
+            <img class="st" src="img/7/Микро.png" />
         </div>
-        <p class="st-tx">МакSим</p>
-        <p class="st-dt">Пт 19 марта, 19:00</p>
+        <p class="st-tx">Открытый микрофон</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
     </div>
     <div class="st-fon">
         <div class="st-img">
-            <img class="st" src="img/1/Rectangle 12.png" />
+            <img class="st" src="img/7/Урал.png" />
         </div>
-        <p class="st-tx">Конёк горбунок</p>
-        <p class="st-dt">Пт 24 февраля, 18:30</p>
+        <p class="st-tx">Урал стендап</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
+    </div>
+</div>
+<div class="st-1">
+    <div class="st-fon">
+        <div class="st-img">
+            <img class="st" src="img/7/Половинкин.png" />
+        </div>
+        <p class="st-tx">Иван Половинкин</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
+    </div>
+    <div class="st-fon">
+        <div class="st-img">
+            <img class="st" src="img/7/Женский стендап.png" />
+        </div>
+        <p class="st-tx">Женский стендап</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
+    </div>
+    <div class="st-fon">
+        <div class="st-img">
+            <img class="st" src="img/7/Челяба.png" />
+        </div>
+        <p class="st-tx">Челябинский стендап плюс</p>
+        <p class="st-dt">Чт 23 февраля, 19:00</p>
     </div>
 </div>
