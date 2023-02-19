@@ -6,27 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Pages\Concerts-st.cshtml" />
-    <Content Remove="Pages\Sinema-st.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Sinema-st.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\Concerts-st.cshtml" />
-    <_ContentIncludedByDefault Remove="Pages\Sinema-st.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\Concerts-st.cshtml" />
-    <None Include="Pages\Sinema-st.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\Concerts-st.cshtml" />
-  </ItemGroup>
-
 </Project>

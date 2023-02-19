@@ -19,6 +19,8 @@ html {
 
 body {
     margin-bottom: 60px;
+    background: #E0E0E0;
+    display:block;
 }
 
 .display-4 {
@@ -33,7 +35,11 @@ body {
     font-weight: bold;
     left: 25px;
     right: -20px;
-    margin: 5px 5px 5px 5px;
+    margin: 10px 5px 5px 5px;
+}
+
+.poisk{
+    display:flex;
 }
 
 .af {
@@ -41,9 +47,10 @@ body {
     text-align: left;
 }
 
-.title {
+.title { /*кнопка на гл стр*/
     display: flex;
     margin-top: 10px;
+    margin-left: 0px
 }
 
 .razd { 
@@ -62,6 +69,18 @@ body {
     outline: none;
     color: black;
     text-decoration: none;
+}
+
+.text1 {
+    position: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6em;
+    margin: 20px 17px;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .st-img {
@@ -132,4 +151,65 @@ body {
     outline: none;
     color: black;
     text-decoration: none;
+}
+
+.bg { /* блок с картинкой фоном у статей*/
+    margin: 0;
+    height: 100%;
+}
+
+.bgimg { /*картинка фоном у статей*/
+    margin: 0;
+    height: 400px;
+    width: 1400px;
+}
+.gr{ /*кнопка на главный и разделы*/
+     position:absolute;
+}
+
+.display-5{
+    color:white;
+}
+.text2 {
+    color: white;
+    position: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6em;
+    margin: 20px;
+    outline: none;
+    text-decoration: none;
+}
+
+.name{
+    position:absolute;
+    color:white;
+}
+.name2 { /*исполнитель и тп*/
+    margin-left: 40px;
+    color: black;
+    font-weight: bolder;
+}
+
+.info {
+    margin-left: 40px;
+    font-weight: lighter;
+    color: black;
+}
+
+.table {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+
+.intable{
+    margin: 0 20px;
 }
